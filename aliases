@@ -1,0 +1,50 @@
+# Unix
+alias ln="ln -v"
+alias mkdir="mkdir -p"
+alias e="$EDITOR"
+alias v="$VISUAL"
+
+# Bundler
+alias b="bundle"
+
+# Rails
+alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
+alias s="rspec"
+
+# Pretty print the path
+alias path='echo $PATH | tr -s ":" "\n"'
+
+
+alias psa="ps aux"
+
+# homebrew - Mac
+alias bru="brew update && brew upgrade && brew prune && brew doctor"
+alias bcu="brew cu"
+
+# vim mimic
+alias :q="exit"
+alias :qq="rm -Rfr ~/.zhistory && :q"
+# vimrc editing
+alias ve='vim ~/.vimrc'
+
+# zsh profile editing
+alias ze='vim ~/.zshrc'
+
+# zsh shell reset
+alias sz='source ~/.zshrc'
+
+# shortcuts
+alias rsl='defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock'
+alias l='ls -al'
+
+#flushdns
+alias flushdns='sudo killall -HUP mDNSResponder'
+
+#archLinux
+alias pkgclr='trizen -Sc'
+alias orphan='trizen -Rnsc $(trizen -Qqddtt)'
+alias mirrorsup='sudo reflector --verbose --country France --country Germany --country India --country US --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+
+
+# Include custom aliases
+[[ -f ~/.dotfiles/aliases.local ]] && source ~/.dotfiles/aliases.local
