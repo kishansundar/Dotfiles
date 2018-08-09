@@ -23,14 +23,14 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle z
 antigen bundle git
-antigen bundle Tarrasch/zsh-autoenv
+#antigen bundle Tarrasch/zsh-autoenv
+antigen bundle yarn
 antigen bundle kishansundar/zsh-themes kishan.zsh-theme
+#antigen bundle ssh-agent
 
 #antigen bundle /Users/Kishan/Developer/github-projects/zsh-themes kishan.zsh-theme
 
 #Themes
 antigen theme kishan
 
-
-#END
 antigen apply
