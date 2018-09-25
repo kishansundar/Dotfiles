@@ -43,7 +43,7 @@ alias flushdns='sudo killall -HUP mDNSResponder'
 #archLinux
 alias pkgclr='trizen -Sc'
 alias orphan='trizen -Rnsc $(trizen -Qqddtt)'
-alias mirrorsup='sudo reflector --verbose --country France --country Germany --country India --country US --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias mirrorsup='sudo reflector --verbose --country Netherlands --country France --country Germany --country India --country US --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 
 
 # Include custom aliases
