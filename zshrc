@@ -34,3 +34,4 @@ antigen bundle kishansundar/zsh-themes kishan.zsh-theme
 antigen theme kishan
 
 antigen apply
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
