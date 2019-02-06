@@ -49,15 +49,15 @@ NeoBundle 'jiangmiao/auto-pairs'
 NeoBundle 'majutsushi/tagbar'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'Yggdroot/indentLine'
-NeoBundle 'Shougo/vimproc.vim', {
-      \ 'build' : {
-      \     'windows' : 'tools\\update-dll-mingw',
-      \     'cygwin' : 'make -f make_cygwin.mak',
-      \     'mac' : 'make -f make_mac.mak',
-      \     'unix' : 'make -f make_unix.mak',
-      \    },
-      \ }
-
+"NeoBundle 'Shougo/vimproc.vim', {
+"      \ 'build' : {
+"      \     'windows' : 'tools\\update-dll-mingw',
+"      \     'cygwin' : 'make -f make_cygwin.mak',
+"      \     'mac' : 'make -f make_mac.mak',
+"      \     'unix' : 'make -f make_unix.mak',
+"      \    },
+"      \ }
+"
 "" Vim-Session
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'xolox/vim-session'
@@ -78,6 +78,7 @@ NeoBundle 'honza/vim-snippets'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'whatyouhide/vim-gotham'
 NeoBundle 'dracula/vim'
+NeoBundle 'arcticicestudio/nord-vim'
 
 "" Vim-Bootstrap Updater by sherzberg
 NeoBundle 'avelino/vim-bootstrap-updater'
@@ -178,7 +179,7 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finsh_neobundle')
-  colorscheme dracula
+  colorscheme nord
 endif
 
 set mousemodel=popup
@@ -231,7 +232,7 @@ if exists("*fugitive#statusline")
 endif
 
 " vim-airline
-let g:airline_theme = 'kolor'
+let g:airline_theme = 'deus'
 let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
