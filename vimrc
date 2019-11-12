@@ -75,10 +75,10 @@ endif
 NeoBundle 'honza/vim-snippets'
 
 "" Color
-NeoBundle 'tomasr/molokai'
-NeoBundle 'whatyouhide/vim-gotham'
-NeoBundle 'dracula/vim'
-NeoBundle 'arcticicestudio/nord-vim'
+NeoBundle 'tomasr/molokai',{ 'name': 'molokai' }
+NeoBundle 'whatyouhide/vim-gotham',{ 'name': 'gotham' }
+NeoBundle 'dracula/vim',{ 'name': 'dracula' }
+NeoBundle 'arcticicestudio/nord-vim',{ 'name': 'nord' }
 
 "" Vim-Bootstrap Updater by sherzberg
 NeoBundle 'avelino/vim-bootstrap-updater'
@@ -179,7 +179,7 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finsh_neobundle')
-  colorscheme nord
+  colorscheme dracula
 endif
 
 set mousemodel=popup
