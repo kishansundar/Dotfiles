@@ -23,7 +23,7 @@ alias bcu="brew cu"
 
 # vim mimic
 alias :q="exit"
-alias :qq="rm -Rfr ~/.zhistory && :q"
+alias :qq="rm -Rfr ~/.zsh_history && :q"
 # vimrc editing
 alias ve='vim ~/.vimrc'
 
