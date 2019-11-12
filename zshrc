@@ -25,13 +25,14 @@ antigen bundle z
 antigen bundle git
 #antigen bundle Tarrasch/zsh-autoenv
 antigen bundle yarn
-antigen bundle kishansundar/zsh-themes kishan.zsh-theme
+#antigen bundle kishansundar/zsh-themes kishan.zsh-theme
 #antigen bundle ssh-agent
 
 #antigen bundle /Users/Kishan/Developer/github-projects/zsh-themes kishan.zsh-theme
+antigen theme dracula/zsh
 
 #Themes
 #antigen theme kishan
-antigen theme denysdovhan/spaceship-prompt
+#antigen theme denysdovhan/spaceship-prompt
 antigen apply
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
