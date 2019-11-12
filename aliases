@@ -7,9 +7,6 @@ alias v="$VISUAL"
 # Bundler
 alias b="bundle"
 
-# Rails
-alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
-alias s="rspec"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
@@ -24,6 +21,7 @@ alias bcu="brew cu"
 # vim mimic
 alias :q="exit"
 alias :qq="rm -Rfr ~/.zsh_history && :q"
+
 # vimrc editing
 alias ve='vim ~/.vimrc'
 
@@ -45,6 +43,3 @@ alias pkgclr='trizen -Sc'
 alias orphan='trizen -Rnsc $(trizen -Qqddtt)'
 alias mirrorsup='sudo reflector --verbose --country Netherlands --country France --country Germany --country India --country US --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 
-
-# Include custom aliases
-[[ -f ~/.dotfiles/aliases.local ]] && source ~/.dotfiles/aliases.local
