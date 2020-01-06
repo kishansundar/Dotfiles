@@ -2,7 +2,7 @@ source ~/.dotfiles/antigen/antigen.zsh
 
 
 export PATH="/usr/local/sbin:$PATH"
-export PATH=$PATH:./node_modules/.bin
+#export PATH=$PATH:./node_modules/.bin
 
 #NVM - Node Version Manager
 
