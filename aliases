@@ -43,3 +43,4 @@ alias pkgclr='trizen -Sc'
 alias orphan='trizen -Rnsc $(trizen -Qqddtt)'
 alias mirrorsup='sudo reflector --verbose --country Netherlands --country France --country Germany --country India --country US --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 
+alias static='P=( " " █ ░ ▒ ▓ );while :;do printf "\e[$[RANDOM%LINES+1];$[RANDOM%COLUMNS+1]f${P[$RANDOM%5]}";done|lolcat'
