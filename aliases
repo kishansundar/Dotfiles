@@ -46,7 +46,7 @@ alias mirrorsup='sudo reflector --verbose --country Netherlands --country France
 alias static='P=( " " █ ░ ▒ ▓ );while :;do printf "\e[$[RANDOM%LINES+1];$[RANDOM%COLUMNS+1]f${P[$RANDOM%5]}";done|lolcat'
 
 ##VoidLinux
-alias xi='sudo xbps-install'
+alias xin='sudo xbps-install'
 alias xr='sudo xbps-remove'
 alias xrr='sudo xbps-remove -R'
 alias xq='sudo xbps-query'
