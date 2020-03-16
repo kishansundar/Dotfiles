@@ -24,5 +24,5 @@ antigen bundle z
 antigen bundle git
 antigen bundle yarn
 #antigen theme dracula/zsh
-antigen theme reobin/typewritten 
+antigen theme tobyjamesthomas/pi
 antigen apply
