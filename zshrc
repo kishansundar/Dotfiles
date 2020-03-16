@@ -23,5 +23,6 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle z
 antigen bundle git
 antigen bundle yarn
-antigen theme dracula/zsh
+#antigen theme dracula/zsh
+antigen theme reobin/typewritten 
 antigen apply
