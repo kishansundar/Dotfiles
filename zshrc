@@ -17,17 +17,17 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle z
 antigen bundle git
-antigen bundle brew
 antigen bundle yarn
 antigen bundle npm
+antigen bundle command-not-found
 antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
 
-antigen theme candy
+#antigen theme candy
 #antigen theme dracula/zsh
 #antigen theme ergenekonyigit/lambda-gitster
 #antigen theme tobyjamesthomas/pi
 #antigen theme eendroroy/alien-minimal alien-minimal
-#antigen theme denysdovhan/spaceship-prompt
+antigen theme denysdovhan/spaceship-prompt
 
 ## NVM bundle
 export NVM_LAZY_LOAD=true
