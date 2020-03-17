@@ -23,6 +23,9 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle z
 antigen bundle git
 antigen bundle yarn
+antigen theme ergenekonyigit/lambda-gitster
 #antigen theme dracula/zsh
-antigen theme tobyjamesthomas/pi
+#antigen theme tobyjamesthomas/pi
+#antigen theme eendroroy/alien-minimal alien-minimal
+#antigen theme denysdovhan/spaceship-prompt
 antigen apply

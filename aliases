@@ -33,21 +33,21 @@ alias sz='source ~/.zshrc'
 
 # shortcuts
 alias rsl='defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock'
-alias l='ls -al'
+alias ls='exa'
 
 #flushdns
 alias flushdns='sudo killall -HUP mDNSResponder'
 
 #archLinux
-alias pkgclr='trizen -Sc'
-alias orphan='trizen -Rnsc $(trizen -Qqddtt)'
-alias mirrorsup='sudo reflector --verbose --country Netherlands --country France --country Germany --country India --country US --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias pkgclr='yay -Sc'
+alias orphan='yay -Rnsc $(trizen -Qqddtt)'
+alias mirrorsup='sudo reflector --verbose --country Netherlands --country France --country Germany --country India --country US --age 12 --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 
 alias static='P=( " " █ ░ ▒ ▓ );while :;do printf "\e[$[RANDOM%LINES+1];$[RANDOM%COLUMNS+1]f${P[$RANDOM%5]}";done|lolcat'
 
 ##VoidLinux
-alias xin='sudo xbps-install'
+alias xs='sudo xbps-install'
 alias xr='sudo xbps-remove'
 alias xrr='sudo xbps-remove -R'
+alias xrrf='sudo xbps-remove -RF'
 alias xq='sudo xbps-query'
-alias xsr='sudo xbps-src'
