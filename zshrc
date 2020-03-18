@@ -6,9 +6,7 @@ export NVM_DIR="$HOME/.nvm"
 
 source ~/.dotfiles/antigen/antigen.zsh
 
-
 export PATH="/usr/local/sbin:$PATH"
-
 
 antigen use oh-my-zsh
 
@@ -19,24 +17,17 @@ antigen bundle z
 antigen bundle git
 antigen bundle yarn
 antigen bundle npm
-antigen bundle command-not-found
-antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
 
 #antigen theme candy
-#antigen theme dracula/zsh
+antigen theme dracula/zsh
 #antigen theme ergenekonyigit/lambda-gitster
 #antigen theme tobyjamesthomas/pi
-#antigen theme eendroroy/alien-minimal alien-minimal
-antigen theme denysdovhan/spaceship-prompt
-
-## NVM bundle
-export NVM_LAZY_LOAD=true
-antigen bundle lukechilds/zsh-nvm
-antigen bundle Sparragus/zsh-auto-nvm-use
+#antigen theme eendroroy/alien-minimal 
+#antigen theme denysdovhan/spaceship-prompt
 
 antigen apply
-
 
 [[ -s ~/.dotfiles/aliases ]] && source ~/.dotfiles/aliases
 
 
+	. /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
