@@ -37,8 +37,9 @@ alias orphan='yay -Rnsc $(trizen -Qqddtt)'
 alias mirrorsup='sudo reflector --verbose --country Netherlands --country France --country Germany --country India --country US --age 12 --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 
 ##VoidLinux
-alias xs='sudo xbps-install -Su'
+alias xs='sudo xbps-install -S'
+alias xsu='sudo xbps-install -Su'
 alias xr='sudo xbps-remove'
 alias xrr='sudo xbps-remove -R'
-alias xrrf='sudo xbps-remove -RF'
 alias xq='sudo xbps-query'
+alias xqrs='sudo xbps-query -Rs'
