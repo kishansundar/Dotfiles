@@ -4,6 +4,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
+#export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+
 source ~/.dotfiles/antigen/antigen.zsh
 
 export PATH="/usr/local/sbin:$PATH"
@@ -22,10 +27,11 @@ antigen bundle npm
 antigen theme dracula/zsh
 #antigen theme ergenekonyigit/lambda-gitster
 #antigen theme tobyjamesthomas/pi
-#antigen theme eendroroy/alien-minimal 
+#antigen theme eendroroy/alien-minimal
 #antigen theme denysdovhan/spaceship-prompt
 
 antigen apply
 
 [[ -s ~/.dotfiles/aliases ]] && source ~/.dotfiles/aliases
 
+export PATH="/usr/local/bin:$PATH"
