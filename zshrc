@@ -23,8 +23,8 @@ antigen bundle git
 antigen bundle yarn
 antigen bundle npm
 
-#antigen theme candy
-antigen theme dracula/zsh
+antigen theme candy
+#antigen theme dracula/zsh
 #antigen theme ergenekonyigit/lambda-gitster
 #antigen theme tobyjamesthomas/pi
 #antigen theme eendroroy/alien-minimal
