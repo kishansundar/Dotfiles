@@ -24,11 +24,13 @@ antigen bundle yarn
 antigen bundle npm
 
 #antigen theme candy
-antigen theme dracula/zsh
+#antigen theme dracula/zsh
 #antigen theme ergenekonyigit/lambda-gitster
 #antigen theme tobyjamesthomas/pi
+antigen theme bira
+#antigen theme josh
 #antigen theme denysdovhan/spaceship-prompt
-
+#antigen theme norm
 antigen apply
 
 [[ -s ~/.dotfiles/aliases ]] && source ~/.dotfiles/aliases
