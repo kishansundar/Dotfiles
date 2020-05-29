@@ -25,7 +25,7 @@ alias ze='vim ~/.zshrc'
 alias sz='source ~/.zshrc'
 
 # shortcuts
-alias rsl='defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock'
+#alias rsl='defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock'
 alias ls='exa'
 
 #flushdns
