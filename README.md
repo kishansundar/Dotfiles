@@ -1,5 +1,4 @@
-Requirements
-------------
+## Requirements
 
 Set zsh as your login shell:
 
@@ -7,9 +6,7 @@ Set zsh as your login shell:
 
 Install
 
-      git clone https://github.com/kishansundar/zsh-shell-env.git ~/.dotfiles
+      git clone https://github.com/kishansundar/dotfiles.git ~/.dotfiles
+      cd ~/.dotfiles
       git submodule update --init --recursive
-      ln -s ~/.dotfiles/zshrc ~/.zshrc
-      ln -s ~/.dotfiles/vimrc ~/.vimrc
-      ln -s ~/.dotfiles/hushlogin ~/.hushlogin
-      ln -s ~/.dotfiles/gemrc ~/.gemrc
+      ./install.sh
